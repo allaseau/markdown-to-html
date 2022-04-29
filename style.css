@@ -1,0 +1,13 @@
+h1{
+    text-decoration: underline;
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+table {
+    border-style: double;
+    border-collapse : collapse;
+}
+td {
+    border: solid black 1px;
+}
