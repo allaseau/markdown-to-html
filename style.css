@@ -11,7 +11,7 @@ table , th, td{
 td:hover{
     background-color: sandybrown;
 }
-p, li, td{
+p, li, td, a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     font-weight: 800;
