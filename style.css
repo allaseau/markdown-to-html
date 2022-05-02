@@ -1,13 +1,37 @@
-h1{
+h1, h2{
     text-decoration: underline;
-    text-align: center;
     font-style: italic;
-    color: red;
+    color: whitesmoke;
+    text-align: center;
 }
-table {
-    border-style: double;
-    border-collapse : collapse;
+table , th, td{
+    border: 2px double whitesmoke;
+    border-collapse: collapse;
 }
-td {
-    border: solid black 1px;
+td:hover{
+    background-color: sandybrown;
+}
+p, li, td{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 800;
+    color: whitesmoke;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    outline: 2px solid red;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(171, 169, 169, 0.419); 
+}
+body{
+    background-image: url('city3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 }
